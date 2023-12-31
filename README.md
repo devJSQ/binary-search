@@ -7,7 +7,7 @@ In this project, our main goal is to understand the binary search algorithm.
 ### Problem
 Create a doubly linked list corresponding to the following diagram and binary search function to search 9 value.
 
-<img width="1000" height="150" alt="linked list" src="https://github.com/SAFCSP-Team/linear-search/blob/main/Image/search-project.jpg">
+<img width="1000" height="150" alt="linked list" src="https://github.com/SAFCSP-Team/binary-search/blob/main/Image/search-project.jpg">
 
 ### Implementation
 * Create a doubly linked list where the data is an integer.
