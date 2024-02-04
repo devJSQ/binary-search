@@ -6,8 +6,7 @@ In this project, our main goal is to understand the binary search algorithm.
 
 ### Problem
 Create a doubly linked list corresponding to the following diagram and binary search function to search for the value of 9.
-
-<img width="1000" height="150" alt="linked list" src="https://github.com/SAFCSP-Team/binary-search/blob/main/Image/search-project.jpg">
+![search-project](https://github.com/SAFCSP-Team/binary-search/assets/148013077/a327f4f7-3951-4c43-a3b9-375b04847435)
 
 ### Implementation
 * In the DoublyLinkedList class, implement a `binary search` function to search for the target, and  print the number of iterations it took to find the target value.
