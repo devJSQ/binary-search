@@ -10,7 +10,7 @@ public class DoublyLinkedList {
       while (current.next != null) {
         current = current.next;
           }
-          newNode.previous = current;
+          Node.previous = current;
           current.next = Node;
         }
     }
