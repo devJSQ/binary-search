@@ -42,3 +42,28 @@ class DoublyLinkedList {
         return temp;
     }
 
+        public void binarySearch(int target) {
+        Node start = head;
+        Node end = null;
+        int iterations = 0;
+
+        while (start != end) {
+            iterations++;
+            Node mid = getMiddle(start, end);
+
+            if (mid == null) {
+                break;
+            }
+
+            if (mid.data == target) {
+                System.out.println(target + " found in " + iterations + " iterations.");
+                return;
+            } else if (mid.data < target) {
+                start = mid.next;
+            } else {
+                end = mid;
+            }
+        }
+
+    }
+
